@@ -3,8 +3,8 @@
 
 #include "errcode.h" 
 
-#define CONFIG_WIFI_SSID "OPPO K12x 5G"
-#define CONFIG_WIFI_PWD "zhaojinming520"
+#define CONFIG_WIFI_SSID "写入你的WiFi名"
+#define CONFIG_WIFI_PWD "你的wifi密码"
 
 errcode_t wifi_connect(void);
 #endif
