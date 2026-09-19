@@ -12,14 +12,14 @@
 
 osThreadId_t mqtt_init_task_id; // mqtt订阅数据任务
 
-#define SERVER_IP_ADDR "tcp://a413ff5de7.st1.iotda-device.cn-north-4.myhuaweicloud.com" // 接入地址
+#define SERVER_IP_ADDR "在华为云官网上面查看" // 接入地址
 #define SERVER_IP_PORT 1883                                                       // 端口号
-#define CLIENT_ID "6a5b1b8dcbb0cf6bb9704ce2_hi3863_0_0_2026080507"                 // 设备id（更新为最新生成）
+#define CLIENT_ID "在华为云官网上面查看"                 // 设备id（更新为最新生成）
 
 #define MQTT_CMDTOPIC_SUB "$oc/devices/6a5b1b8dcbb0cf6bb9704ce2_hi3863/sys/commands/set/#" // 平台下发命令
 
-#define MQTT_DATATOPIC_PUB "$oc/devices/6a5b1b8dcbb0cf6bb9704ce2_hi3863/sys/properties/report"              // 属性上报topic
-#define MQTT_CLIENT_RESPONSE "$oc/devices/6a5b1b8dcbb0cf6bb9704ce2_hi3863/sys/commands/response/request_id=%s" // 命令响应topic
+#define MQTT_DATATOPIC_PUB "在华为云官网上面查看"              // 属性上报topic
+#define MQTT_CLIENT_RESPONSE "在华为云官网上面查看=%s" // 命令响应topic
 
 #define DATA_SEVER_NAME "Switch"
 #define DATA_ATTR_NAME "beep_stat"
@@ -30,8 +30,8 @@ osThreadId_t mqtt_init_task_id; // mqtt订阅数据任务
 #define IOT
 
 #ifdef IOT
-char *g_username = "6a5b1b8dcbb0cf6bb9704ce2_hi3863";
-char *g_password = "5d3dae22de08aef6889c513ab829f9b6935ed79cded391d2b26532ae86f535b0"; // 更新为最新生成
+char *g_username = "在华为云官网上面查看";
+char *g_password = 在华为云官网上面查看"; // 更新为最新生成
 #endif
 
 char g_send_buffer[512] = {0};   // 发布数据缓冲区
